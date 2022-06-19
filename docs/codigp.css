@@ -1,0 +1,43 @@
+webkit-scrollbar {
+    background-color: rgba(247, 241, 247, 0.6);
+    width: 5px;
+    border-radius: 5px;
+}
+
+.lista li {
+    text-shadow: 3px 3px 3px rgb(13, 12, 12);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #e024ca;
+}
+
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg,
+            rgb(123, 141, 139) 0%,
+            rgb(49, 195, 214) 34%,
+            rgb(75, 197, 199) 100%);
+    margin: 0px 50px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+
+    color: #fff;
+}
+
+h1 {
+    text-shadow: 3px 3px 3px rgb(170, 170, 170);
+}
+
+p {
+    text-align: justify;
+}
+
+ol {
+    text-align: justify;
+}
+
+a {
+    color: aqua;
+}
